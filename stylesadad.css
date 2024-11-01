@@ -1,0 +1,13 @@
+/*.woocommerce-terms-and-conditions-wrapper{display: none;}*/
+.payment_method_sadadpay label img{float: right}
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order{background: #8D1B3D;border-radius: 25px;
+line-height: 20px;box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.32);}
+#payment .place-order{margin-top: 0 !important;}
+@media (max-width:549px){
+    .woocommerce-checkout #payment .payment_method_sadadpay label{padding-bottom: 45px;}
+	.payment_box.payment_method_sadadpay{margin-top:3em !important;}
+    .payment_method_sadadpay label img{width: 100%;max-height: 38px !important;}
+    .woocommerce #payment #place_order, .woocommerce-page #payment #place_order{
+padding: 10px 0px;width: 150px !important;
+    float: right !important;}
+}
